@@ -1,0 +1,33 @@
+i
+{
+	color: darkorange;
+}
+body
+{
+	background-color: lightgray;
+}
+.h2
+{
+	color: gray;
+}
+.btn2
+{
+	background-color: black;
+}
+.btn
+{
+	margin-top: 10px;
+	text-align: center;
+	height: 35px;
+	width: 107px;
+	border-radius: 50px;
+}
+.btn-info
+{
+	color: white;
+}
+a
+{
+	margin-left: 50%;
+}
+

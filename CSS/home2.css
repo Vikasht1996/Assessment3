@@ -1,0 +1,51 @@
+.btn
+{
+	border-color: skyblue;
+	margin-top: 10px;
+	text-align: center;
+	height: 35px;
+	width: 107px;
+	border-radius: 50px;
+}
+.l2
+{
+	margin-left: 128px;
+}
+.l4
+{
+	margin-left: 31%;
+}
+.l6
+{
+	margin-left: 17%;
+}
+.city
+{
+	width: 30%;
+
+}
+.state
+{
+	width: 20%;
+	margin-left: 46px;
+}
+.zipcode
+{
+	width: 20%;
+}
+.l8
+{
+	margin-left: 33%;
+}
+.l11
+{
+	margin-left: 14%;
+}
+.l10
+{
+	margin-left: 15%;
+}
+.lname
+{
+	margin-left: 16px;
+}
