@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home3 Demo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./CSS/home.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/home3.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> -->
+</head>
+<body>
+	<!-- ---------------------------------------------------NAV BAR-------------------------------------------------->
+<nav class="navbar navbar-default" id="nav">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<i class="fa fa-bars"></i>
+		<a class="navbar-brand navcontent" href="#">Home</a>	
+		</div>
+		<ul class="nav navbar-nav navbar-center">
+			<li><a href="#" class="navcontent"><strong><i class="fa fa-quora "></i>qhub</strong></a></li>
+		</ul>
+		
+		<ul class="nav navbar-nav navbar-right">
+			<li><i class="fa fa-bell-o fav" style="margin-right: 37px;" ><a href="home.html" style="margin-left: 34px;">Logout</a></i></li>
+		</ul>
+	</div>
+</nav>
+<!-- --------------------------------------------------Container------------------------------------------------->
+	<div class="container" >
+		<!------------------------------------------------Row1--------------------------------------------------->
+		<div class="row">
+			<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 over" style="padding: 44px;">
+				<script type="text/javascript" src="./javascript/home3.js"></script>
+				<p id="demo1">User</p>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" style="padding: 44px;">
+							<div>
+								<p id="demo2"></p>
+								<script>
+									setInterval(getDate,500);
+									function getDate()
+									{
+									var d = new Date();
+									document.getElementById("demo2").innerHTML = d;
+									}
+								</script>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" style="padding: 44px;">TEMP <br><i class="material-icons" style="font-size:36px">bubble_chart</i> <br>85F</div>
+						<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" style="padding: 44px;">SIGNAL <i class="fa fa-wifi" style="font-size:36px"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------------------Row1 End-------------------------------------------------->
+		<!----------------------------------------------Row2 start-------------------------------------------------->
+		<div class="row">
+			<div class="col-sm-9 col-md-9 col-lg-9 col-xs-9">
+				<div class="container" style="background-color: gray; ">
+					<div class="row" id="hide1" style="background-color: white; margin: 5px; padding: 5px;">
+						<div class="col-sm-1 col-md-1 col-lg-1 col-xs-1">Fri   4 <b> May</b></div>
+						<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2"><img src="./image/coachella.jpg"></div>
+						<div class="col-sm-7 col-md-7 col-lg-7 col-xs-7"><h5>Coachella Valley Music and Arts Festival,California</h5>
+							<p>"The Coachella Valley Music and Arts Festival is a three day annual music and arts festival, organized by Goldenvoice and held at the Empire polo Fields in indio,California, in the inland Empire's Coachella Valley"</div>
+					<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2 one"> 10:30-7:30 p.m 
+						<div class="hide">
+					      <button class="button1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button><br><br>
+					      <button class="button1" id="hide2"><i class="fa fa-times" aria-hidden="true"></i>Delete</button>
+				         </div>
+			       </div>
+					</div>
+					<div class="row" id="hide3" style="background-color: white; margin: 5px; padding: 5px;">
+						<div class="col-sm-1 col-md-1 col-lg-1 col-xs-1">Wed 14 <b>Mar</b></div>
+						<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2"><img src="./image/brazil.jpg"></div>
+						<div class="col-sm-7 col-md-7 col-lg-7 col-xs-7"><h5>Rio Carnival Brazil</h5>
+							<p>"The carnival in Rio de Janerio is a world famous festival held before Lent every year and consideredthe biggest carnival in the world with two million people per day on the streets. The first festivals of Rio date back to 723 holiday"</div>
+						<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2 one"> 10:30-7:30 p.m
+							<div class="hide">
+					      <button class="button1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button><br><br>
+					      <button class="button1" id="hide4"><i class="fa fa-times" aria-hidden="true"></i>Delete</button>
+				         </div>
+						</div>
+					</div>
+					<div class="row" id="hide5" style="background-color: white; margin: 5px; padding: 5px;">
+						<div class="col-sm-1 col-md-1 col-lg-1 col-xs-1">Sat 25 <b>Aug</b></div>
+						<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2"><img src="./image/burning.jpg"></div>
+						<div class="col-sm-7 col-md-7 col-lg-7 col-xs-7"><h5>Burning Man,Nevada</h5>
+							<p>"Burning Mn is an annual event held in the Black Rock Desert in northern Nevada, in the united states. The event starts on the Monday before and ends on the day of the American Labor Day holiday"</div>
+						<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2 one"> 10:30-7:30 p.m
+							<div class="hide">
+					      <button class="button1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button><br><br>
+					      <button class="button1" id="hide6"><i class="fa fa-times" aria-hidden="true"></i>Delete</button>
+				         </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3">
+			<h5>Event Calender</h5><body onload="displayCalendar();">
+			<p id="calendar"></p><br>
+			<button class="btn btn-primary button">+Create an event</button>
+		</div>
+		</div>
+
+	</div>
+</body>
+</html>

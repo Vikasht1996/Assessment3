@@ -26,8 +26,24 @@ body
 {
 	color: white;
 }
-a
+
+#model
 {
-	margin-left: 50%;
+	padding: 20px;
+	background-color: lightgray;
 }
+#model>a
+{
+	color: deepskyblue;
+	margin-left: 70%;
+}
+.acunt
+{
+	    margin-left: 160px;
+}
+.account
+{
+	color: white;
+}
+
 

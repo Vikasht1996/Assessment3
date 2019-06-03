@@ -1,0 +1,109 @@
+body
+{
+ margin-top: 59px;
+}
+#nav
+{
+	background-color: gray;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	opacity:0.8;
+}
+.fav
+{
+	color: lightgray;
+}
+.navcontent
+{
+	color: black;
+}
+#demo1
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+.paragraph
+{
+	padding: 5px;
+	background-color: white; 
+	margin: 5px;
+}
+img
+{
+	height: 150px;
+	width: 120px;
+}
+.fa-wifi
+{
+	color: lightgreen;
+}
+.fa-bars
+{
+	color: black;
+}
+.one
+{
+	position: relative;
+}
+.hide
+{
+	display: none;
+	position: absolute;
+	margin:0;
+	bottom:45px;
+}
+.one:hover .hide
+{
+	display: block;
+	background-color: white;
+}
+
+.button1
+{
+	background-color: deepskyblue;
+	
+	height: 30px;
+
+	border-radius: 50px;
+}
+.button1>i
+{
+	color: black;
+}
+/*-------------------------------------------------------------*/
+
+.monthPre{
+color: gray;
+text-align: center;
+}
+.monthNow{
+text-align: center;
+}
+.dayNow{
+color: white;
+text-align: center;
+background-color: #05c4b4;
+}
+#calendar{
+background-color: #eaedf2;
+width: 75%;
+}
+.calendar td{ 
+htmlContent: 2px;
+width: 40px;
+}
+.button{
+width: 200px;
+border-radius: 25px;
+}
+.monthNow th{
+
+text-align: center;
+}
+.dayNames{
+background:#bababa;
+color: #FFFFFF;
+text-align: center;
+}

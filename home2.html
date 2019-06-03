@@ -1,46 +1,106 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Title</title>
+
+		<meta charset="utf-8">
+		<mate name="viewport" content="width=device-width" intial-scale=1>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./CSS/home.css">
 	<link rel="stylesheet" type="text/css" href="./CSS/home2.css">
-</head>
-<body>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3"></div>
-			<div class="col-sm-6"><center>
-				<p>Register as a<button type="button" class="btn btn-">Resident</button></p></center>
-				<center><form>
-					<label class="l1">First Name</label>
-					<label class="l2">Last Name</label><br>
-					<input type="text">
-					<input type="text" class="lname"><br>
-					<label class="l3">Email</label>
-					<label class="l4">Phone Number</label><br>
-					<input type="text" >
-					<input type="text" class="lname"><br>
-					<label class="l5">Street Address1</label>
-					<label class="l6">Street Address2</label><br>
-					<input type="text">
-					<input type="text" class="lname"><br>
-					<label class="l7">City</label>
-					<label class="l8">State</label>
-					<label class="l11">Zipcode</label><br>
-					<input type="text" class="city">
-					<input type="text" class="state">
-					<input type="text" class="zipcode"><br>
-					<label class="l9">Create Password</label>
-					<label class="l10" class="lname">Verify Password</label><br>
-					<input type="text">
-					<input type="text" class="lname"><br>
-					<center><button type="button" class="btn btn-info">Submit</button></center></form></center>
-					<div class="col-sm-3">
+	<script type="text/javascript" src="./javascript/home.js"></script>
+	</head>
+	<body style="background-color: lightgray">
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3"></div>
+					<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<center>
+					<p>Register as a
+						<select id="buttn">
+	 						 <option value="Resident">Resident</option>
+	 						 <option value="Home">Home</option>
+	 						 <option value="Hotel">Hotel</option>
+						</select>
+
+					</p></center>
+						<form name="myform" class="form-group">
+						<div class="row">
+							<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="fname">First Name</label>
+						<input type="text" class="form-control" name="fname" id="i/pfname"><p class="warning" id="prgfname"></p></div>
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="lname">Last Name</label>
+						<input type="text" class="form-control" name="lname" id="i/plname"><p class="warning" id="prglname"></p></div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="email">Email</label>
+						<input type="text" class="form-control" name="email" id="i/pemail"><p class="warning" id="prgemail"></p></div>
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="pho_num">Phone Number</label>
+						<input type="text" class="form-control" name="phonum" id="i/p_pho_num"><p class="warning" id="prg_pho_num"></p></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="addrss1">Street Address1</label>
+						<input type="text" class="form-control" placeholder="Street Line1" name="addrss1" id="i/paddrss1"><p class="warning" id="prgaddrss1"></p></div>
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="addrss2">Street Address2</label>
+						<input type="text" class="form-control" placeholder="Street Line1" name="addrss2" id="i/paddrss2"><p class="warning" id="prgaddrss2"></p></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="city">City</label>
+						<input type="text" class="form-control" placeholder="City" name="city" id="i/pcity"><p class="warning" id="prgcity"></p></div>
+						<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3">
+						<label for="inputname" id="state">State</label>
+						<input type="text" class="form-control" placeholder="State" name="state" id="i/pstate"><p class="warning" id="prgstate"></p></div>
+						<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3">
+						<label for="inputname" id="zipcode">Zipcode</label>
+						<input type="text" class="form-control" placeholder="Zipcode" name="zipcode" id="i/pzipcode"><p class="warning" id="prgzipcode"></p></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="crtpswd">Create Password</label>
+						<input type="text" class="form-control" name="createpswd" id="i/p_crtpswd"><p class="warning" id="prg_crtpswd"></p></div>
+						<div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+						<label for="inputname" id="vrfypswd">VerifY Password</label>
+						<input type="text" class="form-control" name="verifypswd" id="i/p_vrfypswd"><p class="warning" id="prg_vrfypswd"></p></div>
+					</div>
+					<center><a href="home.html"><button type="button" class="btn btn-info" id="buttn2" onclick="submit_complete();">Submit</button></a></center></form></center>
+					</form>
+					<center>
+					<p class="account">Already have an Account?
+						<button type="button" class="btn btn-" id="buttn3" data-toggle="modal" data-target="#myModal">Login</button></p>
+					</center>
+					</div>
 
 					</div>
+					<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3"></div>
 				</div>
-			</body>
-			</html>
+				<!-- --------------------------------------------------------------------------------------------- -->
+				<div class="modal fade" id="myModal" role="dialog" >
+						<div class="modal-dialog modal-md" >
+								<div class="modal-content" id="model">
+										<center><h1 ><strong><i class="fa fa-quora"></i>qhub</strong></h1></center>
+											<label for="email"><b>Email</b></label>
+											<input type="text"  name="email" required=" ">
+											<label for="psw"><b>Password</b></label>
+											<input type="password"  name="psw" required=""> 
+											<a href="">Forgot Password?</a>
+											<center><a href="home3.html"><button type="button" class="btn btn-info"data-toggle="modal" data-target="#myModal">Submit</button></a></center>
+											<div class="acunt"><p class="account">Don't have av Account? 
+													<a href="home2.html"><button type="button" class="btn btn-" id="buttn3" data-toggle="modal" data-target="#myModal">Signup</button></a></p>
+											</div>  										
+								</div>
+						</div>
+				</div>
+		</div>
+	</body>
+	</html>

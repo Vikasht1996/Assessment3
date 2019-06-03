@@ -1,51 +1,33 @@
-.btn
+ #buttn
 {
 	border-color: skyblue;
 	margin-top: 10px;
-	text-align: center;
 	height: 35px;
 	width: 107px;
 	border-radius: 50px;
+	color: skyblue;
+	background-color: lightgray;
 }
-.l2
+#buttn2
 {
-	margin-left: 128px;
+	margin-top: 25px;
+    width: 25%;
+    border-radius: 50px;
 }
-.l4
-{
-	margin-left: 31%;
-}
-.l6
-{
-	margin-left: 17%;
-}
-.city
-{
-	width: 30%;
 
-}
-.state
+#buttn3
 {
-	width: 20%;
-	margin-left: 46px;
+    margin-left: 9px;
+    border-radius: 50px;
+    background: black;
+    color: deepskyblue;
+    width: 56px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: timesnewroman;
 }
-.zipcode
+.warning
 {
-	width: 20%;
-}
-.l8
-{
-	margin-left: 33%;
-}
-.l11
-{
-	margin-left: 14%;
-}
-.l10
-{
-	margin-left: 15%;
-}
-.lname
-{
-	margin-left: 16px;
+	color: #ff0000b5;
 }
