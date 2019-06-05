@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./CSS/home.css">
 	<link rel="stylesheet" type="text/css" href="./CSS/home3.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!-- <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> -->
+	
 </head>
 <body>
 	<!-- ---------------------------------------------------NAV BAR-------------------------------------------------->
@@ -35,14 +35,14 @@
 	<div class="container" >
 		<!------------------------------------------------Row1--------------------------------------------------->
 		<div class="row">
-			<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 over" style="padding: 44px;">
+			<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2 over" style="padding: 44px; ">
 				<script type="text/javascript" src="./javascript/home3.js"></script>
 				<p id="demo1">User</p>
 			</div>
-			<div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+			<div class="col-sm-8 col-md-8 col-lg-8 col-xs-8">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" style="padding: 44px;">
+						<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 two" >
 							<div>
 								<p id="demo2"></p>
 								<script>
@@ -55,15 +55,15 @@
 								</script>
 							</div>
 						</div>
-						<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" style="padding: 44px;">TEMP <br><i class="material-icons" style="font-size:36px">bubble_chart</i> <br>85F</div>
-						<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" style="padding: 44px;">SIGNAL <i class="fa fa-wifi" style="font-size:36px"></i></div>
+						<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 two" >TEMP <br><i class="material-icons" style="font-size:36px">bubble_chart</i> <br>85F</div>
+						<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 two" >SIGNAL<br> <i class="fa fa-wifi" style="font-size:36px"></i></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!----------------------------------------------Row1 End-------------------------------------------------->
 		<!----------------------------------------------Row2 start-------------------------------------------------->
-		<div class="row">
+		<div class="row" style="margin-top: 30px;">
 			<div class="col-sm-9 col-md-9 col-lg-9 col-xs-9">
 				<div class="container" style="background-color: gray; ">
 					<div class="row" id="hide1" style="background-color: white; margin: 5px; padding: 5px;">
@@ -105,8 +105,8 @@
 				</div>
 			</div>
 			<div class="col-sm-3 col-md-3 col-lg-3 col-xs-3">
-			<h5>Event Calender</h5><body onload="displayCalendar();">
-			<p id="calendar"></p><br>
+			<h5 class="calendarmargin">Event Calender</h5><body onload="displayCalendar();">
+			<p id="calendar" class="calendarmargin"></p><br>
 			<button class="btn btn-primary button">+Create an event</button>
 		</div>
 		</div>
