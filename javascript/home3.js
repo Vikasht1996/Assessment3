@@ -10,7 +10,7 @@ else if(hrs>=12 && hrs<17)
 {
   document.write("<b>Good Afternoon</b>");
 }
-else if(hrs>=17 && hrs<=23)
+else if(hrs>=17 && hrs<=19)
 {
   document.write("<b>Good Evening</b>");
 }
