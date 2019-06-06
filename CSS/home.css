@@ -9,10 +9,16 @@ body
 .h2
 {
 	color: gray;
+	margin-top: 40px;
+}
+.prg
+{
+	margin-top: 40px;
 }
 .btn2
 {
-	background-color: black;
+	background-color: gray;
+	color: white;
 }
 .btn
 {

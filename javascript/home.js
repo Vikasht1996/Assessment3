@@ -3,7 +3,7 @@ function submit_complete()
 	var fnameverify=/^([a-zA-Z]){2,10}$/;
 	var lnameverify=/^([a-zA-Z]){2,10}$/;
 	var emailverify=/^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,10})$/;
-	var phnonumverify=/^([6-9]{1})([0-9]{9})$/;
+	var phnonumverify=/^([0-9]{3})-([0-9]{3})-([0-9]{4})$/;
 	var address1verify=/^[a-zA-Z0-9]{5,30}$/;
 	var address2verify=/^([a-zA-Z0-9]){5,30}$/;
 	var cityverify=/^([a-zA-Z]){5,15}$/;
@@ -212,15 +212,11 @@ function submit_complete()
 	{
 
 	}
-	else if(newpassword==confirmpassword)
+	else if(newpassword!=confirmpassword)
 // else if(document.getElementById('i/p_crtpswd').value==document.getElementById("i/p_vrfypswd").value)
-
 {
-	// document.getElementById("demo8").innerHTML="Password Match";
+	document.getElementById("demo8").innerHTML="***Password does not match";
 }
-else
-{
-	document.getElementById("demo8").innerHTML="Password does not match";
-}
+return false;
 }
 
