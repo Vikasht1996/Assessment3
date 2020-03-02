@@ -57,8 +57,6 @@ while (weekdays>0){
 
   weekdays--;
 }
-
-
 while (counter <= numOfDays){
 
 
