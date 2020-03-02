@@ -66,8 +66,6 @@ while (counter <= numOfDays){
     weekdays2 = 0;
     htmlContent += "</tr><tr>";
   }
-
-
   if (counter == day){
     htmlContent +="<td class='dayNow'  onMouseOver='this.style.background=\"#FF0000\"; this.style.color=\"#FFFFFF\"' "+
     "onMouseOut='this.style.background=\"#FFFFFF\"; this.style.color=\"#00FF00\"'>"+counter+"</td>";
