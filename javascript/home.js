@@ -213,7 +213,7 @@ function submit_complete()
 
 	}
 	else if(newpassword!=confirmpassword)
-// else if(document.getElementById('i/p_crtpswd').value==document.getElementById("i/p_vrfypswd").value)
+
 {
 	document.getElementById("demo8").innerHTML="***Password does not match";
 }
